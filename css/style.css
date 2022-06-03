@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+}
+
+.container-imagem{
+  height: 50vh;
+  width: 100vw;
+  background: url('/img/bgadega.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overlay: 
+}
+
+.card-img-overlay{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+#btn-nossos-produtos{
+  margin-top: 10vh;
+}
