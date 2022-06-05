@@ -77,7 +77,7 @@ body{
 }
 /* End Section adegas divisor*/
 
-/* Section adegas */
+/* Section nossas adegas */
 .adegas{
   background-color: #033649;
   width:  100vw;
@@ -86,7 +86,6 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .cardt {
@@ -94,41 +93,50 @@ body{
   height: 25vh;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 500;
+  text-align: center;
 }
 
+.iconify{
+  width: 45px;
+  height: 45px;
+}
+
+/*Column 1*/
 .column1 {
-  background-color: aqua;
   display: block;
   flex-direction: column;
   margin: 0;
   width: 20vw
 }
 
+/* Card 1*/
 .card1 {
-  background-color: brown;
-
-}
-
-.iconify{
-  width: 35px;
-  height: 35px;
-}
-
-.card1 span{
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .card1 p {
   width: 200px;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
+}
+/* End Card 1*/
+
+/*Card 2*/
+.card2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.card2 {
-  background-color: rgb(165, 163, 42);
+.card2 p {
+  width: 200px;
 }
+/* End Card 2*/
+
+/*End Column 1*/
 
 .column2 {
 
@@ -138,6 +146,7 @@ body{
   
 }
 
+/*  Card Imagem principal*/
 .img-adega-principal {
   width: 190px;
   height: 500px ;
@@ -145,53 +154,61 @@ body{
   margin-right: auto;
   display:flex ;
 }
+/* End Card Imagem principal*/
 
-
+/*Column 3*/
 .column3 {
   display: block;
   flex-direction: column;
-  background-color: black;
+  /* background-color: black; */
   margin: 0;
   width: 20vw;
 }
 
+/* Card 3*/
 .card3 {
-  background-color: rgb(42, 71, 165);
+  /* background-color: rgb(42, 71, 165); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.card4 {
-  background-color: rgb(165, 42, 69);
+.card3 p {
+  width: 200px;
 }
+/* End Card 3*/
+
+/* Card 4*/
+.card4 {
+  /* background-color: rgb(165, 42, 69); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card4 p {
+  width: 200px;
+}
+
+/* End Card 4*/
+
+/* End Column 3*/
 
 @media screen and (max-width:992px) {
-  .cardt {
-    width: 50vw;
-    height: 25vh;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .img-adega-principal {
-    width: 100px;
-    height: 250px ;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .adegas{
-    background-color: rgb(8, 8, 114);
+    background-color: #033649;
     width:  100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
   
   }
-}
 
-@media screen and (max-width:700px) {
   .cardt {
-    width: 70vw;
-    height: 25vh;
+    width: 50vw;
+    height: 15vh;
     margin-left: auto;
     margin-right: auto;
   }
@@ -203,12 +220,77 @@ body{
     margin-right: auto;
   }
 
+  .column1 {
+    display: flex;
+    flex-direction: row;
+    width: 20vw
+  }
+
+  .column2 {
+    display: flex;
+    width: 20vw
+  }
+
+  .column3 {
+    display: flex;
+    flex-direction: row;
+    width: 20vw
+  }
+  
+}
+
+@media screen and (max-width:700px) {
   .adegas{
-    background-color: rgb(8, 8, 114);
+    background-color: #033649;
     width:  100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
   }
+
+  .adegas-divisor{
+    width:  100vw;
+    height: 30vh;
+    display: flex;
+  }
+
+  .img-adega-principal {
+    width: 100px;
+    height: 250px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .cardt {
+    width: 70vw;
+    height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .iconify{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .column2 {
+    display: flex;
+    width: 20vw
+  }
+
+  .column3 {
+    display: flex;
+    flex-direction: column;
+    width: 20vw
+  }
 }
-/* End Section adegas */
+/* End Section Nossas adegas */
