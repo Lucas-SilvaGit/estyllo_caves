@@ -28,7 +28,7 @@ body{
 }
 
 .content-hero{
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   margin-top: 10vh;
 }
 
@@ -160,14 +160,12 @@ body{
 .column3 {
   display: block;
   flex-direction: column;
-  /* background-color: black; */
   margin: 0;
   width: 20vw;
 }
 
 /* Card 3*/
 .card3 {
-  /* background-color: rgb(42, 71, 165); */
   justify-content: center;
   align-items: center;
   display: flex;
@@ -181,7 +179,6 @@ body{
 
 /* Card 4*/
 .card4 {
-  /* background-color: rgb(165, 42, 69); */
   justify-content: center;
   align-items: center;
   display: flex;
@@ -294,3 +291,152 @@ body{
   }
 }
 /* End Section Nossas adegas */
+
+/**/
+
+/* Section modelos divisor*/
+.modelos-divisor{
+  background-color: #A5A5A5;
+  width:  100vw;
+  height: 15vh;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+
+.title-modelos {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color:black;
+}
+/* End Section modelos divisor*/
+
+/* Section modelos*/
+.modelos{
+  background-color: #A5A5A5;
+  width:  100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.model-1,
+.model-2,
+.model-3 {
+  height: 40vh;
+  margin-right: 0;
+  margin-left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-modelos {
+  font-weight: 700;
+}
+
+.adega1 {
+  margin-left: 20vw;
+}
+
+.paragrafo-1 {
+  margin-left: 20vw;
+
+}
+
+.adega2 {
+}
+
+.paragrafo-2 {
+
+}
+
+.adega3 {
+  margin-right: 20vw;
+}
+
+.paragrafo-3 {
+  margin-right: 20vw;
+}
+
+.paragrafos {
+  font-size: 21px;
+  font-weight: 700;
+  color: black;
+  margin-top:2vh;
+}
+
+#btn-modelos { 
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 700;
+  font-size: clamp(16px, 5vw, 16px);
+  display: flex;
+  justify-content: center;
+}
+
+/* End Section modelos*/
+
+@media screen and (max-width:992px) {
+  .modelos {
+    width: 100vw;
+    height: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .model-1,
+  .model-2,
+  .model-3 {
+    height: 30vh;
+  }
+
+  .adega1 {
+    margin-left: 0;
+  }
+  
+  .paragrafo-1 {
+    margin-left: 0;
+  }
+  
+  .adega3 {
+    margin-right: 0;
+  }
+  
+  .paragrafo-3 {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .modelos {
+    width: 100vw;
+    height: 150%;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .model-1,
+  .model-2,
+  .model-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
