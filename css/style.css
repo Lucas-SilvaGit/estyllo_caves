@@ -138,14 +138,6 @@ body{
 
 /*End Column 1*/
 
-.column2 {
-
-}
-
-.card-image {
-  
-}
-
 /*  Card Imagem principal*/
 .img-adega-principal {
   width: 190px;
@@ -247,7 +239,7 @@ body{
 
   .adegas-divisor{
     width:  100vw;
-    height: 30vh;
+    height: 35vh;
     display: flex;
   }
 
@@ -320,7 +312,7 @@ body{
 .modelos{
   background-color: #A5A5A5;
   width:  100vw;
-  height: 60vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -340,23 +332,12 @@ body{
   text-align: center;
 }
 
-.title-modelos {
-  font-weight: 700;
-}
-
 .adega1 {
   margin-left: 20vw;
 }
 
 .paragrafo-1 {
   margin-left: 20vw;
-
-}
-
-.adega2 {
-}
-
-.paragrafo-2 {
 
 }
 
@@ -438,5 +419,242 @@ body{
     display: flex;
     flex-direction: column;
   }
+}
+
+/*Viloes do Vinho Divisor*/
+.viloes-divisor{
+  background-color: #C8C19C;
+  width:  100vw;
+  height: 20vh;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-viloes {
+  color: black;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.title2-viloes {
+  color: black;
+  font-weight: 700;
+  margin-bottom: 5vh;
+  text-align: left;
+}
+
+.paragrafo-viloes-divisor {
+  color: black;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+}
+/*End Viloes do Vinho Divisor*/
+
+/*Viloes do Vinho */
+
+.viloes {
+  width: 100vw;
+  height: 60vh;
+  background-color: #C8C19C;
+}
+
+.carousel {
+  width: 100vw;
+  height: 60vh;
+}
+
+.carousel-inner {
+  height: 60vh;
+  display: flex;
+}
+
+.slide-image {
+  width: 350px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-top: 15vh;
+  
+}
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-bottom: 10vh;
+}
+
+.carousel-caption p {
+  color: black;
+  text-align: left;
+}
+
+@media screen and (max-width:992px) {
+  .viloes-divisor{
+    width:  100vw;
+    height: 15vh;
+    padding-top: 5vh;
+  }
+
+  .viloes {
+    width: 100vw;
+    height: 85vh;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slide-image {
+    width: 250px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: 5vw;
+    margin-top: 23vh;
+  }
+
+  .carousel-caption {
+    width: 40vw;
+    margin-bottom: 10vh;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .viloes-divisor{
+    width:  100vw;
+    height: 30vh;
+  }
+
+  .viloes {
+    width: 100vw;
+    height: 80vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide-image {
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55vh;
+  }
+
+  .carousel{
+    height: 80vh;
+  }
+
+  .carousel-inner {
+    height: 80vh;
+    padding-bottom: 5vh;
+  }
+
+  .carousel-caption {
+    width: 70vw;
+    display: flex;
+    margin-bottom: 15vh;
+  }
+
+  .carousel-caption p {
+    text-align: left;
+  } 
+}
+/*Viloes do Vinho */
+
+
+/* Section adegas divisor*/
+.projetos{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),url("/img/testebg9.png");
+
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  /* width:  100vw; */
+  height: 100vh;
+  font-weight: 500;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.content-projetos {
+  height: 90vh;
+}
+
+.title-projetos {
+  font-weight: 500;
+  color: #eeeeee;
+}
+
+.paragrafo-projetos-divisor {
+  width: 25vw;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #eeeeee;
+}
+
+/**/
+.img-fluid{
+  /* max-width: 80vw; */
+  max-height: 50vh;
+  margin-top: 5vh;
+  vertical-align:bottom;
+}
+
+#btn-projetos{
+  /* margin-top: 5vh; */
+  font-weight: 700;
+  font-size: clamp(16px, 5vw, 16px);
+
+  margin-top: 5vh;
+}
+
+@media screen and (max-width:992px) {
+  .projetos{
+    height: 100vh;
+    padding-top: 0;
+    margin-bottom: 15vh;
+  }
+
+  .paragrafo-projetos-divisor {
+    width: 60vw;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #eeeeee;
+  }
 
 }
+
+@media screen and (max-width:770px) {
+  .projetos{
+    height: 110vh;
+    margin-bottom: 0;
+  }
+
+  .paragrafo-projetos-divisor {
+    width: 70vw;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #eeeeee;
+  }
+
+}
+
+
+/* End Section adegas divisor*/
