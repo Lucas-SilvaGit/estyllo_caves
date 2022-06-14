@@ -655,6 +655,98 @@ body{
   }
 
 }
-
-
 /* End Section adegas divisor*/
+
+/**/
+
+/* Section contato divisor*/
+.contato-divisor {
+  background-color: #036564;
+  width:  100vw;
+  height: 15vh;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+/* End Section contato divisor*/
+
+/* Section contato */
+
+.contato{
+  background-color: #036564;
+  width:  100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dados {
+  /* background-color: #A5A5A5; */
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contatos {
+  /* background-color: #aa1e1e; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.phone,
+.location,
+.whatsapp {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.dados p {
+  padding-left: 5px;
+}
+
+.redes {
+  /* background-color: blue; */
+  margin-top: 5vh;
+  
+}
+
+.icon-rede {
+  display:inline-block;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.icons-rede {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.map {
+  /* background-color: #aa1e1e; */
+  width: 100vw;
+  height: 60vh;
+}
+
+.frame {
+  margin-top: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End Section contato */
