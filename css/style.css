@@ -627,7 +627,7 @@ body{
   .projetos{
     height: 100vh;
     padding-top: 0;
-    margin-bottom: 15vh;
+    /* margin-bottom: 5vh; */
   }
 
   .paragrafo-projetos-divisor {
@@ -692,6 +692,8 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: solid 2px;
+  border-color: #ffffff;
 }
 
 .contatos {
@@ -741,6 +743,7 @@ body{
   /* background-color: #aa1e1e; */
   width: 100vw;
   height: 60vh;
+
 }
 
 .frame {
@@ -749,4 +752,99 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width:992px) {
+  .contato-divisor{
+    height: 15vh;
+    margin-top: 0px;
+  }
+
+  .contato{
+    height: 80vh;
+  }
+
+  .contato-container {
+    height: 80vh;
+  }
+
+  .contato-row {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .dados,
+  .map {
+    height: 25vh;
+    margin-bottom: 5vh;
+  } 
+
+  .frame {
+    margin-top: 0;
+  }
+  
+}
+
+@media screen and (max-width:770px) {
+  .contato{
+    height: 90vh;
+  }
+
+  .contato-container {
+    height: 90vh;
+  }
+
+  .contato-row {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .dados,
+  .map {
+    height: 35vh;
+    margin-bottom: 5vh;
+  } 
+
+  .icon {
+    margin: 2px;
+  }
+
+  .dados p {
+    padding-left: 0px;
+  }
+}
+
 /* End Section contato */
+
+/**/
+
+/* Footer Rodapé */
+.rodape {
+  background-color: #050505;
+  color: #ffffff;
+  text-align: center;
+  height: 6vh;
+  padding-top: 15px;
+
+}
+
+@media screen and (max-width:992px) {
+  .rodape{
+  height: 20vh;
+  padding-top: 15px;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .rodape{
+  height: 10vh;
+  padding-top: 15px;
+  }
+}
+
+/* End Footer Rodapé */
