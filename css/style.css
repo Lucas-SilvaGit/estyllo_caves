@@ -55,7 +55,7 @@ body{
   background-color: #033649;
   width:  100vw;
   height: 35vh;
-  padding-top:30px;
+  padding-top:50px;
   display: flex;
   font-weight: 500;
   justify-content: center;
@@ -234,7 +234,7 @@ body{
   .adegas{
     background-color: #033649;
     width:  100vw;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
@@ -508,7 +508,7 @@ body{
 
   .viloes {
     width: 100vw;
-    height: 85vh;
+    height: 55vh;
 
     margin-left: auto;
     margin-right: auto;
@@ -827,38 +827,14 @@ body{
 
 /**/
 
-/* Footer Rodapé */
-.rodape {
-  background-color: #050505;
-  color: #ffffff;
-  text-align: center;
-  height: 6vh;
-  padding-top: 15px;
 
-}
-
-@media screen and (max-width:992px) {
-  .rodape{
-  height: 20vh;
-  padding-top: 15px;
-  }
-}
-
-@media screen and (max-width:770px) {
-  .rodape{
-  height: 10vh;
-  padding-top: 15px;
-  }
-}
-
-/* End Footer Rodapé */
 
 /**/
 /**/
 /**/
 
 /* Hero */
-.hero-imagem-campo{
+.hero-imagem-vinho{
   height: 50vh;
   width: 100vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
@@ -943,7 +919,6 @@ body{
   }
   
   .linha1 {
-    
     margin-bottom: 10vh;
   }
 
@@ -956,5 +931,184 @@ body{
 /*  End Section Sobre*/
 
 
+/* Section Hero 2 */
+.hero-imagem-campo{
+  height: 30vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
+  rgba(0, 0, 0, 0.4)), 
+  url("/img/campo2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+/* Section Hero 2 */
+
+/* Section Qualidade*/
+.qualidade {
+  height: 20vh;
+  background-color: #A5A5A5;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+}
+
+.qualidade p {
+  width: 40vw;
+  margin: 0 auto;
+}
+/* End Section Qualidade*/
 
 
+/* Section Garantias*/
+.garantias {
+  background-color: #A5A5A5;
+  height: 60vh;
+}
+
+.container-garantias{
+  height: 60vh;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  /* background-color: red; */
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p{
+  width: 15vw;
+  text-align: center;
+  margin-bottom: auto;
+
+}
+
+.box-icon {
+  margin-bottom: 3vh;
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (max-width:992px) {
+  .qualidade p {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .garantias,
+  .container-garantias{
+    height: 80vh;
+  }
+
+  .box1, 
+  .box2,
+  .box3,
+  .box4 {
+    height: 30vh;
+    padding-top: 5vh;
+  } 
+
+  .box1 p,
+  .box2 p,
+  .box3 p,
+  .box4 p{
+    width: 35vw;
+    text-align: center;
+  }
+
+  .box-icon {
+    margin-bottom: 3vh;
+    min-width: 60px;
+    min-height: 60px;
+  }
+  
+}
+@media screen and (max-width:770px) {
+  .qualidade {
+    height: 25vh;
+  }
+
+  .qualidade p {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .garantias,
+  .container-garantias{
+    height: 120vh;
+  }
+
+  .content-garantias {
+    height: 120vh;
+  }
+
+  .box1, 
+  .box2,
+  .box3,
+  .box4 {
+    height: 30vh;
+    padding-top: 5vh;
+  } 
+
+  .box1 p,
+  .box2 p,
+  .box3 p,
+  .box4 p{
+    width: 90vw;
+    text-align: center;
+  }
+
+  .box-icon {
+    margin-bottom: 3vh;
+    min-width: 45px;
+    min-height: 45px;
+  }
+}
+/* End Section Garantias*/
+
+/**/
+/**/
+/**/
+/**/
+
+/* Footer Rodapé */
+.rodape {
+  background-color: #050505;
+  color: #ffffff;
+  text-align: center;
+  height: 7vh;
+  padding-top: 15px;
+
+}
+
+@media screen and (max-width:992px) {
+  .rodape{
+  height: 20vh;
+  padding-top: 15px;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .rodape{
+  height: 10vh;
+  padding-top: 15px;
+  }
+}
+
+/* End Footer Rodapé */
