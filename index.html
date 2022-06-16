@@ -13,7 +13,7 @@
 <body>
   <!-- Navigation-->
   <header >
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">    
       <div class="container col-11 m-auto ">
         <a class="navbar-brand" href="#">
           <img src="/img/adega.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -25,16 +25,19 @@
         <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 text-align-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/adegas">Adegas</a>
+              <a class="nav-link active" aria-current="page" href="index.html#adegas">Adegas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Empresa</a>
+              <a class="nav-link" href="empresa.html">Empresa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
+              <a class="nav-link" href="index.html#projetos">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="index.html#viloes">Cuidados com Vinho</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -49,7 +52,8 @@
       <div class="hero-imagem">
         <div class="content-hero">
           <h1 class="hero-title">ADEGA DE VINHO DOS SEUS SONHOS</h1>
-          <button id="btn-produtos" type="button" class="btn btn-light">NOSSOS PRODUTOS</button>
+          <!-- <button id="btn-produtos" type="button" class="btn btn-light" href="index.html#produtos">NOSSOS PRODUTOS</button> -->
+          <a id="btn-produtos" class="btn btn-light" href="index.html#produtos" role="button">NOSSOS PRODUTOS</a>
         </div>
       </div>
     </div>
@@ -57,7 +61,7 @@
   <!-- End Hero-->
 
   <main>
-    <section class="container-fluid adegas-divisor">
+    <section class="container-fluid adegas-divisor" id = "adegas">
       <div class="container">
         <h2 class="title-adegas">NOSSAS ADEGAS</h2>
         <img class="img-adegas-divisor" src="/img/divisor-adegas.png" alt="divisor adegas">
@@ -71,7 +75,7 @@
       </div>
     </section>
 
-    <section class="container-fluid adegas">
+    <section class="container-fluid adegas" >
       <div class="container">
         <div class="row">
         <div class="column1 col-lg-4">
@@ -87,9 +91,9 @@
 
           <div class="cardt card2">
             <p>
-              Compressor Inteligente, Eco Friendly e 30% + Econômica
+              Adegas projetadas para ter o máximo de eficiência com economia de energia.
             </p>
-            <span class="iconify cursor-hand-click-line" data-icon="clarity:cursor-hand-click-line"></span>
+            <span class="iconify" data-icon="icon-park-outline:green-new-energy"></span>
             
           </div>
         </div>
@@ -118,7 +122,7 @@
       </div>
     </section>
 
-    <section class="container-fluid modelos-divisor">
+    <section class="container-fluid modelos-divisor" id="modelos">
       <div class="container">
         <h2 class="title-modelos">NOSSOS MODELOS DE ADEGAS</h2>
         <img class="img-modelos-divisor" src="/img/divisor-modelos.png" alt="divisor modelos">
@@ -151,7 +155,7 @@
       </div>
     </section>
 
-    <section class="container-fluid viloes-divisor">
+    <section class="container-fluid viloes-divisor" id="viloes">
       <div class="container">
         <h2 class="title-viloes">VILÕES DO VINHO</h2>
         <img class="img-viloes-divisor" src="/img/viloes-divisor.png" alt="divisor viloes">
@@ -188,7 +192,7 @@
                   </p>
                 </div>
               </div>
-              <div class="carousel-item" data-bs-interval="20000">
+              <div class="carousel-item" data-bs-interval="10000">
                 <img src="/img/umidade.png" class="d-flex slide-image" alt="...">
                 <div class="carousel-caption d-md-flex">
                   <h3 class="title2-viloes">UMIDADE</h3>
@@ -220,7 +224,7 @@
                     O compressor inteligente das nossas adegas possui sistema 
                     anti-vibração, menor ruído e ainda proporciona maior economia 
                     de eletricidade. Você e seu vinho podem descansar tranquilos 
-                    com a Art des Caves.
+                    com a Estyllo Caves.
                   </p>
                 </div>
               </div>
@@ -238,9 +242,9 @@
       </div>
     </section>
 
-    <section class="container-fluid projetos">
+    <section class="container-fluid projetos" id="projetos">
       <div class="container content-projetos">
-        <h2 class="title-projetos">NOSSOS MODELOS DE ADEGAS</h2>
+        <h2 class="title-projetos">AMBIENTES EXCLUSIVOS</h2>
         <img class="img-projetos-divisor" src="/img/divisor-modelos.png" alt="divisor modelos">
         <p class="paragrafo-projetos-divisor">
           Para aqueles que preferem optar 
@@ -256,7 +260,7 @@
       </div>
     </section>
 
-    <section class="container-fluid contato-divisor">
+    <section class="container-fluid contato-divisor" id="contato">
       <div class="container">
         <h2 class="title-contato">CONTATO</h2>
         <img class="img-contato-divisor" src="/img/divisorcontato.png" alt="divisor conato">        
