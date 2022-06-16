@@ -55,11 +55,13 @@ body{
   background-color: #033649;
   width:  100vw;
   height: 35vh;
+  padding-top:30px;
   display: flex;
   font-weight: 500;
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 .title-adegas {
@@ -296,7 +298,8 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 10px;
+  padding-top:50px;
+  
   
 }
 
@@ -431,6 +434,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 60px;
 }
 
 .title-viloes {
@@ -848,3 +852,109 @@ body{
 }
 
 /* End Footer Rodapé */
+
+/**/
+/**/
+/**/
+
+/* Hero */
+.hero-imagem-campo{
+  height: 50vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
+  rgba(0, 0, 0, 0.4)), 
+  url("/img/hero-empresa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  
+}
+
+.content-hero{
+  color: rgb(255, 255, 255);
+  margin-top: 10vh;
+}
+
+.hero-title{
+  font-weight: 700;
+}
+
+/* End Hero */
+
+/*  Section Sobre*/
+.sobre{
+  height: 100vh;
+  background-color: #A5A5A5;
+}
+
+.content-sobre {
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.linha {
+  height: 40vh;
+}
+
+.paragrafo1 {
+  /* background-color: red; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragrafo2 {
+  /* background-color: red; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  /* background-color: blue; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2 {
+  /* background-color: blue; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width:770px) {
+  .sobre{
+    height: 180vh;
+  }
+  
+  .content-sobre {
+    height: 180vh;
+    padding-top: 10vh;
+  }
+  
+  .linha1 {
+    
+    margin-bottom: 10vh;
+  }
+
+  .linha2 {
+    flex-direction: column-reverse;
+  }
+  
+}
+
+/*  End Section Sobre*/
+
+
+
+
