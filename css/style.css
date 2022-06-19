@@ -15,9 +15,9 @@ body{
 .hero-imagem{
   height: 60vh;
   width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
   rgba(0, 0, 0, 0.4)), 
-  url("img/bgadega.png");
+  url("img/bgadega.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
@@ -577,8 +577,8 @@ body{
 
 /* Section adegas divisor*/
 .projetos{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-  rgba(0, 0, 0, 0.5)),url("img/testebg9.png");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),url("img/testebg9.png"); */
 
   display: flex;
   flex-direction: column;
@@ -837,9 +837,9 @@ body{
 .hero-imagem-vinho{
   height: 50vh;
   width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
   rgba(0, 0, 0, 0.4)), 
-  url("img/hero-empresa.jpg");
+  url("img/hero-empresa.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
@@ -935,9 +935,9 @@ body{
 .hero-imagem-campo{
   height: 30vh;
   width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
   rgba(0, 0, 0, 0.4)), 
-  url("img/campo2.png");
+  url("img/campo2.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
