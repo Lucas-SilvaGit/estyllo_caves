@@ -13,7 +13,7 @@ body{
 
 /* Hero */
 .hero-imagem{
-  height: 50vh;
+  height: 60vh;
   width: 100vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), 
   rgba(0, 0, 0, 0.4)), 
@@ -185,7 +185,7 @@ body{
 
 /* End Card 4*/
 
-/* End Column 3*/
+
 
 @media screen and (max-width:992px) {
   .adegas{
